@@ -95,7 +95,7 @@ export function PortalFooter() {
               <li>500 12th St SW</li>
               <li>Washington, DC 20536</li>
               <li className="mt-1 text-white/50">+1 202 290 8213</li>
-              <li className="text-white/50">support@iaasecurity.org</li>
+              <li className="text-white/50">support@icesecurity.org</li>
             </ul>
           </div>
         </div>
