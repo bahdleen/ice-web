@@ -53,7 +53,7 @@ export function LandingCta() {
             <div className="flex flex-col gap-2.5 sm:flex-row sm:gap-8">
               {[
                 { icon: Phone, value: "+1 202 290 8213" },
-                { icon: Mail, value: "support@iaasecurity.org" },
+                { icon: Mail, value: "support@icesecurity.org" },
                 { icon: Clock, value: "24 / 7 Availability" },
               ].map((c) => (
                 <div key={c.value} className="flex items-center gap-2">

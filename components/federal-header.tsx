@@ -67,7 +67,7 @@ export function FederalHeader({ user }: FederalHeaderProps) {
             <rect width="6.4" height="5.5" fill="#002868" />
           </svg>
           <span className="text-[10px] leading-none text-white/70 sm:text-[11px]">
-            An official website of the United States Government
+            Official ICESecurity platform
           </span>
           <button className="ml-1 hidden items-center gap-0.5 text-[11px] text-white/50 underline underline-offset-2 hover:text-white/70 sm:flex">
             {"Here's how you know"}
@@ -89,7 +89,7 @@ export function FederalHeader({ user }: FederalHeaderProps) {
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-base font-bold leading-tight tracking-tight sm:text-xl">
-                ICE Portal
+                ICESecurity
               </span>
               <span className="hidden text-[10px] uppercase tracking-[0.2em] text-primary-foreground/40 sm:block">
                 Case Follow-Up & Communication

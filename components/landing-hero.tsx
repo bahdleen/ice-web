@@ -27,7 +27,7 @@ export function LandingHero() {
             <div className="mb-6 inline-flex items-center gap-2.5 border border-[#bf9b30]/20 bg-[#bf9b30]/5 px-4 py-2 backdrop-blur-sm sm:gap-3 sm:px-5 sm:py-2.5">
               <Shield className="h-3.5 w-3.5 text-[#bf9b30] sm:h-4 sm:w-4" />
               <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#bf9b30] sm:text-[11px] sm:tracking-[0.3em]">
-                U.S. Immigration & Customs Enforcement
+                ICESecurity.org
               </span>
             </div>
 
@@ -42,7 +42,7 @@ export function LandingHero() {
 
             <p className="mb-8 max-w-lg text-sm leading-relaxed text-white/50 text-pretty sm:text-base lg:mb-10 lg:text-lg">
               Access case information, submit reports, and communicate securely
-              with authorized support personnel through encrypted federal channels.
+              with authorized support personnel through encrypted channels.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">

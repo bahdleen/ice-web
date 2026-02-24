@@ -1,4 +1,4 @@
--- ICE Portal Database Migration
+-- ICESecurity Portal Database Migration
 -- Creates all required tables, indexes, and seed data
 
 -- Users table
