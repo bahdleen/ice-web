@@ -3,7 +3,7 @@ INSERT INTO users (id, full_name, email, password_hash, role)
 VALUES (
   'a0000000-0000-0000-0000-000000000001',
   'System Administrator',
-  'admin@icesecurity.org',
+  'admin@ice-portal.gov',
   '$2b$10$8K1p/a0dL1LXMIgoEDFrwOfMQkf9xH8K2jXb3gN6mR.rM1s6NhKHi',
   'admin'
 ) ON CONFLICT (email) DO NOTHING;

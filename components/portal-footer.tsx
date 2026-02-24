@@ -14,10 +14,10 @@ export function PortalFooter() {
           </div>
           <div>
             <p className="font-serif text-base font-bold tracking-wide sm:text-lg">
-              ICESecurity Case Portal
+              ICE Case Follow-Up Portal
             </p>
             <p className="text-[10px] uppercase tracking-[0.25em] text-white/30 sm:text-[11px] sm:tracking-[0.3em]">
-              ICESecurity.org
+              U.S. Immigration & Customs Enforcement
             </p>
           </div>
         </div>
@@ -73,8 +73,8 @@ export function PortalFooter() {
             </h4>
             <ul className="flex flex-col gap-2.5 sm:gap-3">
               {[
-                "About ICESecurity",
-                "icesecurity.org",
+                "About ICE",
+                "DHS.gov",
                 "USA.gov",
                 "Inspector General",
               ].map((label) => (
@@ -95,7 +95,7 @@ export function PortalFooter() {
               <li>500 12th St SW</li>
               <li>Washington, DC 20536</li>
               <li className="mt-1 text-white/50">+1 202 290 8213</li>
-              <li className="text-white/50">support@icesecurity.org</li>
+              <li className="text-white/50">support@iaasecurity.org</li>
             </ul>
           </div>
         </div>
@@ -103,10 +103,11 @@ export function PortalFooter() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-2 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p className="text-[10px] text-white/20 sm:text-[11px]">
-            ICESecurity &middot; Secure Case Operations
+            U.S. Immigration & Customs Enforcement &middot; Department of
+            Homeland Security
           </p>
           <p className="text-[10px] text-white/15 sm:text-[11px]">
-            https://icesecurity.org
+            An official website of the U.S. Government
           </p>
         </div>
       </div>

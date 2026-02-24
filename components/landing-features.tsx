@@ -21,7 +21,7 @@ export function LandingFeatures() {
           <div className="relative aspect-[16/9] w-full sm:aspect-[2/1] lg:aspect-auto lg:min-h-[600px] lg:w-[45%]">
             <Image
               src="/images/section-operations.jpg"
-              alt="Security operations center"
+              alt="Federal operations center"
               fill
               className="object-cover"
             />
@@ -123,10 +123,10 @@ export function LandingFeatures() {
               <div className="h-px w-8 bg-[#bf9b30]/50 sm:w-12" />
             </div>
             <h2 className="mb-3 font-serif text-2xl font-bold text-white sm:mb-4 sm:text-3xl md:text-5xl">
-              Core Services
+              Official Services
             </h2>
             <p className="max-w-md text-sm leading-relaxed text-white/45">
-              Core capabilities available through this secure ICESecurity portal.
+              Core capabilities available through this secure government portal.
             </p>
           </div>
 
@@ -191,7 +191,7 @@ export function LandingFeatures() {
           <div className="relative aspect-[16/9] w-full sm:aspect-[2/1] lg:aspect-auto lg:min-h-[600px] lg:w-[45%]">
             <Image
               src="/images/section-secure.jpg"
-              alt="Secure data center"
+              alt="Secure federal data center"
               fill
               className="object-cover"
             />
@@ -213,11 +213,11 @@ export function LandingFeatures() {
               </span>
             </div>
             <h2 className="mb-3 font-serif text-2xl font-bold text-card-foreground sm:mb-4 sm:text-3xl md:text-4xl">
-              Enterprise-Grade Security
+              Federal-Grade Security
             </h2>
             <p className="mb-8 max-w-md text-sm leading-relaxed text-muted-foreground sm:mb-10">
-              Enterprise security infrastructure built to strict compliance and
-              operational reliability standards.
+              Enterprise security infrastructure that meets or exceeds all
+              federal compliance requirements.
             </p>
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
@@ -229,13 +229,13 @@ export function LandingFeatures() {
                 },
                 {
                   icon: ShieldCheck,
-                  title: "Compliance Ready",
-                  desc: "Aligned with modern cloud security standards",
+                  title: "FedRAMP Authorized",
+                  desc: "Full compliance with federal cloud security standards",
                 },
                 {
                   icon: Scale,
-                  title: "Security Framework",
-                  desc: "Comprehensive controls and governance implementation",
+                  title: "NIST 800-53",
+                  desc: "Complete security controls framework implementation",
                 },
                 {
                   icon: Fingerprint,
@@ -276,11 +276,11 @@ export function LandingFeatures() {
         <div className="relative mx-auto max-w-7xl px-5 py-16 sm:px-6 sm:py-20 md:py-28">
           <div className="mb-10 flex flex-col items-center text-center sm:mb-14">
             <h2 className="mb-3 font-serif text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-              Trusted by Security Teams Nationwide
+              Trusted by Federal Agencies Nationwide
             </h2>
             <p className="max-w-lg text-sm leading-relaxed text-white/40">
-              A secure platform built to high standards of compliance and
-              operational reliability.
+              A secure platform built to the highest standards of government
+              compliance and operational reliability.
             </p>
           </div>
 
@@ -288,7 +288,7 @@ export function LandingFeatures() {
             {[
               { value: "99.99%", label: "Uptime SLA" },
               { value: "<200ms", label: "Avg. Response" },
-              { value: "SOC 2", label: "Certified" },
+              { value: "FISMA", label: "Certified" },
               { value: "24/7/365", label: "Monitoring" },
             ].map((stat) => (
               <div

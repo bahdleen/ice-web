@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Deep navy / white / gold */
+  /* Deep federal navy / white / gold — USWDS-inspired */
   --background: oklch(0.985 0.002 240);
   --foreground: oklch(0.16 0.02 250);
   --card: oklch(1.0 0 0);
